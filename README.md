@@ -5,5 +5,8 @@ MySQL应用架构演变
 单机单库 -> 主从架构 -> 分库分表 -> 云数据库
 
 第一部分 MySQL架构原理
+
 1、MySQL体系架构
 ![image](https://user-images.githubusercontent.com/62527778/187696033-53d66ad9-db54-40c9-8c70-4134a698f8f5.png)
+
+MySQL Server架构自顶向下大致可以分网络连接层、服务层、存储引擎层和系统文件层。
