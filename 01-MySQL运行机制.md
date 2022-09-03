@@ -1,3 +1,5 @@
+MySQL运行机制
+
 ![image](https://user-images.githubusercontent.com/62527778/187800981-1b9e2a47-6dc5-43b9-b8d1-69b4e3ca7547.png)
 
 ①建立连接（Connectors&Connection Pool），通过客户端/服务器通信协议与MySQL建立连接。MySQL 客户端与服务端的通信方式是 “ 半双工 ”。对于每一个 MySQL 的连接，时刻都有一个线程状态来标识这个连接正在做什么。
